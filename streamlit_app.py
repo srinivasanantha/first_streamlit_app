@@ -12,4 +12,4 @@ streamlit.title( "First Streamlit program with Github testing 1111...")
 streamlit.text( "Check this line for any errors")
 import requests
 fruityvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon")
-streamlit.text(fruityvice_response)
+streamlit.text(fruityvice_response.json() )
