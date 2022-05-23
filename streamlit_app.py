@@ -11,3 +11,4 @@ fruits_to_show=my_fruit_list.loc[fruits_selected]
 streamlit.dataframe(fruits_to_show)
 streamlit.title( "First Streamlit program with Github testing 123...")
 streamlit.text( "Check this line for any errors")
+import requests
